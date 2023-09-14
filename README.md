@@ -103,7 +103,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 5. Configure Agents
 
-   - Make sure that you are in the Admin Panel
+   - Make sure that you are in the Admin Panel, select the Agents, and then Agents
+   - Click Add New Agent
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
