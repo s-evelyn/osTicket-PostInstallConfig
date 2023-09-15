@@ -18,6 +18,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Windows 10</b> (22H2)
 
+
 <h2>Post-Install Configuration Objectives</h2>
 
 - Configure Roles
@@ -109,11 +110,12 @@ This tutorial outlines the post-install configuration of the open-source help de
    - Click Add New Agent, give your agent a name and an email address
    - Then click on set password
 
-      <img width="50%" hieght ="50%" alt="Set Password for New Agent" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/76606a8e-ebec-4148-98ea-bb6bc7c92e3b">
+      <img width="50%" hieght ="50%" alt="Set Password for New Agent" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/8881d1be-c444-4e67-9e9d-a42279c3dbc6">
+
 
    - For the purpose of this tutorial unclick " Send the agent a password reset". Also unclick  " Require Password Change at next login". Note that this is not best practice when in a work environment, but for the purpose of this tutorial. Type in a password that you can remember, and click Set.
      
-      <img wwidth="50%" hieght ="50%" alt="New Agent 2" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/e9e43040-bff3-4a7e-9bfa-790a2b685ced">
+      <img width="50%" hieght ="50%" alt="New Agent 2" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/e9e43040-bff3-4a7e-9bfa-790a2b685ced">
       
    - Next click on the Access tab, and assign your new agent to the System Administrator Department that we created earlier giving them full access. We are also going to give this Agent extended access to the Support department. Click Create once completed
   
@@ -124,9 +126,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h4>6. Configure Users</h4> 
 
-    - Navigate to the Agents Panel
+- Navigate to the Agents Panel
 
-        <img width="50%" hieght ="50%" alt="Create User" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/31bbe2e8-328b-43c0-90f0-e9d5ae1a4efa">
+  <img width="50%" hieght ="50%" alt="Create User" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/31bbe2e8-328b-43c0-90f0-e9d5ae1a4efa">
 
     - Click on Users and then User Directory
     - Click on Create a New User
@@ -170,4 +172,16 @@ This tutorial outlines the post-install configuration of the open-source help de
     - Personal Computer Issues
     - Equipment Request
     - Password Reset
+
+
+<h2>osTicket Documentation</h2>
+If you would like to get more information about the different configuration here are a few links to their documentation:
+
+- [Roles](https://docs.osticket.com/en/latest/Admin/Agents/Roles.html)
+- [Departments](https://docs.osticket.com/en/latest/Admin/Agents/Departments.html)
+- [Teams](https://docs.osticket.com/en/latest/Admin/Agents/Teams.html)
+- [Agents](https://docs.osticket.com/en/latest/Admin/Agents/Agents.html)
+- [Users](https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html)
+- [SLA](https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html)
+- [Help Topics](https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html)
 
