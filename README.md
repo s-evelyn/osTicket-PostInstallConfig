@@ -41,7 +41,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Click on Admin Panel (Note that when you go into Admin panel, the Agent Panel option becomes available in the upper right hand corner, and vice-versa).
     - Select Agents -> Roles.
-    - Create New Role.
+    - Click "Add New Role".
           
        <img width="50%" hieght ="50%"  alt="Add New Role" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/83c42ba2-9fc0-4d32-a040-73395a3834e3">
 
@@ -149,12 +149,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Navigate to the Admin Panel.
 - Click on the Manage tab and then SLA.
+- Click "Add New SLA"
 
-    <img width="50%" hieght ="50%" alt="add sla 2" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/6c95474c-77e2-47d4-8b74-c844b3b0019a">
-
+    <img width="50%" hieght ="50%" alt="Add SLA" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/62a2e423-4e16-49bb-8982-f93a0b3386b8">
+    
 - In our example we are going to create and SLA titles SEV-A with a Grace period of 1 hour on a 24/7 schedule
      
-    <img width="50%" hieght ="50%" alt="Add SLA" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/62a2e423-4e16-49bb-8982-f93a0b3386b8">
+    <img width="50%" hieght ="50%" alt="add sla 2" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/6c95474c-77e2-47d4-8b74-c844b3b0019a">
 
 - Create 3 more SLA with the following grace periods and schedules.
   -  Sev-B (4 hours, 24/7).
@@ -165,7 +166,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h4> 8. Configure Help Topics </h4>
 
 - Navigate to the Admin Panel, click the Manage tab and then Help Topics.
-- Click "Add New Help Topics".
+- Click "Add New Help Topic".
 
     <img width="50%" hieght ="50%" alt="Add Help Topics" src="https://github.com/s-evelyn/osTicket-PostInstallConfig/assets/53543374/b4d0dd33-e444-4f71-a85e-0b0105e614c5">
 
